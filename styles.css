@@ -1,0 +1,144 @@
+/* https://cs50.harvard.edu/x/2021/psets/8/homepage/ */
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #778899;  /* lightslategray */
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+/*
+For bullet list style position
+Source:
+https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position
+https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type
+Eg.
+  list-style-position: outside;
+  list-style-type: disc;
+
+Margin is an element’s personal space — how much distance the element wants to keep with other elements around it.
+Padding is how much an element is away from itself — how much distance an element wants to keep with the elements inside it.
+Source:
+https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf
+Eg.
+  margin-left:15px;
+  padding: 5px;
+
+For controlling space between bullet point and text
+Source:
+https://stackoverflow.com/questions/6332873/how-is-it-possible-to-modify-the-gap-between-a-bullet-and-its-list-text
+Eg.
+  text-indent:-10px;
+  text-align: left;
+*/
+.bulletlist {
+  text-align: left;
+  margin-left:50px;
+  font-size: 20px;
+}
+
+.bulletlist2 {
+  text-align: left;
+  margin-left:130px;
+  font-size: 20px;
+}
