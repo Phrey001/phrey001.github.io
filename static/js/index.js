@@ -4,7 +4,7 @@ $(document).ready( function() {
     // This controls the button for the c note.
     var cNote = document.getElementById('c_note');
 
-    $('#c').mousedown(function(){
+    $('#c').mouseover(function(){
         cNote.currentTime = 0;
         cNote.play();
     });
@@ -12,7 +12,7 @@ $(document).ready( function() {
     // This controls the button for the d note.
     var dNote = document.getElementById('d_note');
 
-    $('#d').mousedown(function(){
+    $('#d').mouseover(function(){
         dNote.currentTime = 0;
         dNote.play();
     });
@@ -20,7 +20,7 @@ $(document).ready( function() {
     // This controls the button for the e note.
     var eNote = document.getElementById('e_note');
 
-    $('#e').mousedown(function(){
+    $('#e').mouseover(function(){
         eNote.currentTime = 0;
         eNote.play();
     });
@@ -28,7 +28,7 @@ $(document).ready( function() {
     // This controls the button for the f note.
     var fNote = document.getElementById('f_note');
 
-    $('#f').mousedown(function(){
+    $('#f').mouseover(function(){
         fNote.currentTime = 0;
         fNote.play();
     });
@@ -44,7 +44,7 @@ $(document).ready( function() {
     // This controls the button for the a note.
     var aNote = document.getElementById('a_note');
 
-    $('#a').mousedown(function(){
+    $('#a').mouseover(function(){
         aNote.currentTime = 0;
         aNote.play();
     });
@@ -52,7 +52,7 @@ $(document).ready( function() {
     // This controls the button for the b note.
     var bNote = document.getElementById('b_note');
 
-    $('#b').mousedown(function(){
+    $('#b').mouseover(function(){
         bNote.currentTime = 0;
         bNote.play();
     });
