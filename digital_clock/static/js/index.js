@@ -8,7 +8,7 @@ $(document).ready( function() {
         // This gets a "handle" to the clock div in our HTML
         var clockDiv = document.getElementById('clock');
 
-        var currentTime = new Date().toLocaleString("en-US", {timeZone: clockDiv.timeZone});
+        var currentTime = new Date().toLocaleString("en-GB", {timeZone: clockDiv.timeZone});
         var hours = currentTime.getHours();
         var minutes = currentTime.getMinutes();
         var seconds = currentTime.getSeconds();
