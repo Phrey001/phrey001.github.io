@@ -5,7 +5,7 @@ $(document).ready( function() {
     // and seconds individually.
 
     function displayTime() {
-        var currentTime = new Date();
+        var currentTime = new Date().toLocaleString("en-US", {timeZone: clockDiv.timeZone});
         var hours = currentTime.getHours();
         var minutes = currentTime.getMinutes();
         var seconds = currentTime.getSeconds();
