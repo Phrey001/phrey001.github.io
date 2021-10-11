@@ -5,6 +5,9 @@ $(document).ready( function() {
     // and seconds individually.
 
     function displayTime() {
+        // This gets a "handle" to the clock div in our HTML
+        var clockDiv = document.getElementById('clock');
+
         var currentTime = new Date().toLocaleString("en-US", {timeZone: clockDiv.timeZone});
         var hours = currentTime.getHours();
         var minutes = currentTime.getMinutes();
@@ -39,9 +42,6 @@ $(document).ready( function() {
         if(seconds < 10) {
             seconds = "0" + seconds;
         }
-
-        // This gets a "handle" to the clock div in our HTML
-        var clockDiv = document.getElementById('clock');
 
         // Then we set the text inside the clock div
         // to the hours, minutes, and seconds of the current time
