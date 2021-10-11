@@ -93,7 +93,7 @@ $(document).ready( function() {
         }
 
         // This gets a "handle" to the clock div in our HTML
-        var clockDiv = document.getElementById('clock');
+        var clockDiv = document.getElementById('clock_NY');
 
         // Then we set the text inside the clock div
         // to the hours, minutes, and seconds of the current time
