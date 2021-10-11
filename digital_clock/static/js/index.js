@@ -107,8 +107,4 @@ $(document).ready( function() {
     // running the displayTime function every second.
     setInterval(displayTime, 1000);
 
-
-
-
-
 });
