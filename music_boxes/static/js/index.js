@@ -56,4 +56,12 @@ $(document).ready( function() {
         bNote.currentTime = 0;
         bNote.play();
     });
+
+    // This controls the button for a sample music.
+    var peacefulDays = document.getElementById('peacefulDays');
+
+    $('#peaceful_days').mousedown(function(){
+        peacefulDays.currentTime = 0;
+        peacefulDays.play();
+    });
 });
