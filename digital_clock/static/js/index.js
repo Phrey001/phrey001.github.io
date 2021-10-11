@@ -58,9 +58,9 @@ $(document).ready( function() {
     function displayTime_new_york() {
         var timezone = clock.dataset.timezone;
         var new_york_time = new Date.toLocaleTimeString(timeZone: timezone);
-        var hours = currentTime.getHours();
-        var minutes = currentTime.getMinutes();
-        var seconds = currentTime.getSeconds();
+        var hours = new_york_time.getHours();
+        var minutes = new_york_time.getMinutes();
+        var seconds = new_york_time.getSeconds();
 
 
         // Let's set the AM and PM meridiem and
