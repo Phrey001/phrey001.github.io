@@ -57,7 +57,7 @@ $(document).ready( function() {
 
     function displayTime_new_york() {
         var timezone = clock.dataset.timezone;
-        var new_york_time = new Date.toLocaleTimeString(timeZone: timezone);
+        var new_york_time = new Date.toLocaleTimeString('en-GB', timeZone: timezone);
         var hours = new_york_time.getHours();
         var minutes = new_york_time.getMinutes();
         var seconds = new_york_time.getSeconds();
