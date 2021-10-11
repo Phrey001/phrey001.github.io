@@ -14,7 +14,6 @@
 #sky {
     height: 100%;
     width: 100%;
-    background-color: #37d8e6
 }
 
 #moonspot1 {
@@ -72,4 +71,8 @@
 
 .visible {
     background-color: #eaeff2;
+}
+
+body {
+    background-color: #37d8e6;
 }
