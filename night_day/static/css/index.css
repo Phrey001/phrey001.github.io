@@ -73,6 +73,13 @@
     background-color: #eaeff2;
 }
 
+/* As .night and .day doesn't work due to some interference
+with core bootstrap, try toggle background directly instead
+source: https://codepen.io/Mndaco/pen/NLMrPv
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode  */
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
     background-color: #37d8e6;
 }

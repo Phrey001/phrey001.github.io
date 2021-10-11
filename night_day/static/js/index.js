@@ -48,6 +48,11 @@ $(document).ready(function(){
             $('#sky').removeClass('night').addClass('day');
         }
 
+        // If #sky div doesn't work, change background colour instead
+        // Adapted from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
+        var element = document.body;
+        element.classList.toggle('night');
+
 
         // This is similar, but instead of toggling between two classes
         // we just need to adds or removes the "visible" class to mulitple objects.
